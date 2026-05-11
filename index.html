@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentação de praticas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <h1 class="press-start-2p-regular">Documentação de praticas</h1>
+  </header>
+
+  <div class="praticas">
+    <div class="pratica">
+      <div class="pratica-img">
+        <img src="./assets/img/pratica-funcoes-getAttribute-calc-imc-html.png" alt="" class="details-img">
+      </div>
+      <div class="botoes">
+        <button class="details" data-pratica="pratica1"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
+      </div>
+    </div>
+
+    <div class="pratica">
+      <div class="pratica-img">
+        <img src="./assets/img/scroll-animado-css.png" alt="" class="details-img">
+      </div>
+      <div class="botoes">
+        <button class="details" data-pratica="pratica2"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="modal" class="modal">
+    <span class="fechar">&times;</span>
+    <img class="modal-img" id="modal-img" />
+
+    <button class="prev">&#10094</button>
+    <button class="next">&#10095</button>
+  </div>
+
+  <script type="module" src="./js/script.js"></script>
+
+</body>
+
+</html>

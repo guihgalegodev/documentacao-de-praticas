@@ -9,14 +9,11 @@ export const praticas = {
     "assets/img/scroll-animado-html.png",
     "assets/img/scroll-animado-simples.png",
   ],
-  // game3: [
-  //   "assets/img/naruto-2-otm.jpg",
-  //   "assets/img/naruto-2-gameplay.jpg",
-  //   "assets/img/gta-iv-gameplay-2.jpg",
-  // ],
-  // game4: [
-  //   "assets/img/mvc-otm.jpg",
-  //   "assets/img/gta-iv-gameplay.jpg",
-  //   "assets/img/gta-iv-gameplay-2.jpg",
-  // ],
+
+  pratica3: [
+    "assets/img/constructor-function-2.png",
+    "assets/img/constructor-function-3.png",
+    "assets/img/constructor-function-4.png",
+    "assets/img/constructor-function-1.png",
+  ],
 };

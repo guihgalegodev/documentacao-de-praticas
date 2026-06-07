@@ -16,4 +16,12 @@ export const praticas = {
     "assets/img/constructor-function-4.png",
     "assets/img/constructor-function-1.png",
   ],
+
+  pratica4: [
+    "assets/img/constructors-prototype-1.png",
+    "assets/img/constructors-prototype-2.png",
+    "assets/img/constructors-prototype-3.png",
+  ],
+
+  pratica5: ["assets/img/game-prototype.png"],
 };

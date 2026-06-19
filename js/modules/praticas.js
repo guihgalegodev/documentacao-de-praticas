@@ -24,4 +24,16 @@ export const praticas = {
   ],
 
   pratica5: ["assets/img/game-prototype.png"],
+
+  pratica6: [
+    "assets/img/pesquisar-frutas-estoque-code.png",
+    "assets/img/pesquisar-frutas-estoque-html.png",
+    "assets/img/pesquisar-frutas-estoque-document.png",
+  ],
+
+  pratica7: [
+    "assets/img/metodo-bind-call-apply-html.png",
+    "assets/img/metodo-bind-call-apply-js.png",
+    "assets/img/metodo-bind-document.png",
+  ],
 };

@@ -36,4 +36,10 @@ export const praticas = {
     "assets/img/metodo-bind-call-apply-js.png",
     "assets/img/metodo-bind-document.png",
   ],
+
+   pratica8: [
+    "assets/img/cadastro-de-carros-js.png",
+    "assets/img/cadastro-de-carros-html.png",
+    "assets/img/cadastro-de-carros-window.png",
+  ],
 };

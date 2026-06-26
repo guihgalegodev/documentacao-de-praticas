@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Documentação de praticas</title>
+  <title>Documentção Pratica</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,96 +13,196 @@
 
 <body>
 
-  <header class="header">
-    <h1 class="press-start-2p-regular">Documentação de praticas</h1>
+  <header class="header-bg">
+    <div class="header container">
+      <nav id="nav-menu">
+        <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+          <span id="hamburguer"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="index.html">Práticas</a></li>
+          <li><a href="index.html">Códigos Prontos</a></li>
+          <li><a href="index.html">Exercícios Aulas</a></li>
+          <li><a href="index.html">API'S práticas</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <div class="praticas">
-    <div class="pratica">
-      <div class="pratica-img">
-        <img src="./assets/img/pratica-funcoes-getAttribute-calc-imc-html.png" alt="" class="details-img">
-      </div>
-      <h3>Pratica no dom 1</h3>
-      <div class="botoes">
-        <button class="details" data-pratica="pratica1"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
-      </div>
-    </div>
+  <main class="container">
+    <div class="jogos container">
 
-    <div class="pratica">
-      <div class="pratica-img">
-        <img src="./assets/img/scroll-animado-css.png" alt="" class="details-img">
-      </div>
-      <h3>Pratica no dom 2</h3>
-      <div class="botoes">
-        <button class="details" data-pratica="pratica2"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
-      </div>
-    </div>
+      <section class="section-praticas" id="ps2" data-anima="right">
+        <h2>Práticas</h2>
+        <ul class="container-cards">
+          <li class="jogo">
+            <h3 class="game-name">getAttribute</h3>
+            <div class="jogo-img">
+              <img src="./assets/img/getAttribute-imc/getAttribute-calc-imc-js.png" alt="" class="details-img">
+            </div>
+            <div class="botoes">
+              <button class="details" data-pratica="pratica1"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
 
-    <div class="pratica">
-      <div class="pratica-img">
-        <img src="./assets/img/constructor-function-2.png" alt="" class="details-img">
-      </div>
-      <h3>Pratica contructor-functions</h3>
-      <div class="botoes">
-        <button class="details" data-pratica="pratica3"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
-      </div>
-    </div>
+          <li class="jogo">
+            <h3 class="game-name">Contructor Function</h3>
+            <div class="jogo-img">
+              <img src="./assets/img/constructor-functions/constructor-function-3.png" alt="" class="details-img">
+            </div>
+            <div class="botoes">
+              <button class="details" data-pratica="pratica2"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
 
-    <div class="pratica">
-      <div class="pratica-img">
-        <img src="./assets/img/constructors-prototype-2.png" alt="" class="details-img">
-      </div>
-      <h3>Contructors-prototype</h3>
-      <div class="botoes">
-        <button class="details" data-pratica="pratica4"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
-      </div>
-    </div>
+          <li class="jogo">
+            <h3 class="game-name">construtor prototype</h3>
+            <div class="jogo-img">
+              <img src="./assets/img/constructors-prototype/constructors-prototype-1.png" alt="" class="details-img">
+            </div>
 
-    <div class="pratica">
-      <div class="pratica-img">
-        <img src="./assets/img/game-prototype.png" alt="" class="details-img">
-      </div>
-      <h3>Pratica criando game</h3>
-      <div class="botoes">
-        <button class="details" data-pratica="pratica5"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
-      </div>
-    </div>
+            <div class="botoes">
+              <button class="details" data-pratica="pratica3"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
+          <li class="jogo">
+            <h3 class="game-name">pesquisa fruta em estoque</h3>
+            <div class="jogo-img">
+              <img src="./assets/img/pesquisar-fruta-em-estoque/pesquisar-frutas-estoque-js.png" alt="Grand Theft Auto 4 Capa" class="details-img">
+            </div>
 
-    <div class="pratica">
-      <div class="pratica-img">
-        <img src="./assets/img/pesquisar-frutas-estoque-code.png" alt="" class="details-img">
-      </div>
-      <h3>Pesquisar frutas em estoque</h3>
-      <div class="botoes">
-        <button class="details" data-pratica="pratica6"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
-      </div>
-    </div>
+            <div class="botoes">
+              <button class="details" data-pratica="pratica4"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
 
-    <div class="pratica">
-      <div class="pratica-img">
-        <img src="./assets/img/metodo-bind-call-apply-html.png" alt="" class="details-img">
-      </div>
-      <h3>Metodo bind de função</h3>
-      <div class="botoes">
-        <button class="details" data-pratica="pratica7"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
-      </div>
-    </div>
+            </div>
+          </li>
 
-    <div class="pratica">
-      <div class="pratica-img">
-        <img src="./assets/img/cadastro-de-carros-js.png" alt="" class="details-img">
-      </div>
-      <h3>Cadastro de Carros</h3>
-      <div class="botoes">
-        <button class="details" data-pratica="pratica8"> <img src="./assets/icons/loupe-otm.png" alt="Loupe Icon"> Detalhes</button>
-      </div>
-    </div>
+          <li class="jogo">
+            <h3 class="game-name">Metodo bind call apply</h3>
+            <div class="jogo-img">
+              <img src="./assets/img/metodo-bind/metodo-bind-call-apply-js.png" alt="" class="details-img">
+            </div>
 
-  </div>
+            <div class="botoes">
+              <button class="details" data-pratica="pratica5"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
+
+          <li class="jogo">
+            <h3 class="game-name">Simulando Game</h3>
+            <div class="jogo-img">
+              <img src="./assets/img/logica-com-games/game-prototype.png" alt="" class="details-img">
+            </div>
+
+            <div class="botoes">
+              <button class="details" data-pratica="pratica6"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
+
+          <li class="jogo">
+            <h3 class="game-name">Scroll Animado</h3>
+            <div class="jogo-img">
+              <img src="./assets/img/scroll-animado/scroll-animado-js.png" alt="" class="details-img">
+            </div>
+
+            <div class="botoes">
+              <button class="details" data-pratica="pratica7"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
+        </ul>
+        <div class="btns-scroll-praticas">
+          <span id="btn-voltar-praticas"><img src="./assets/icons/arrow_back.svg" alt=""></span>
+          <span id="btn-avancar-praticas"><img src="./assets/icons/arrow_forward.svg" alt=""></span>
+        </div>
+      </section>
+
+      <!-- <section class="section-ps3" id="ps3">
+        <h2>Playstation 3</h2>
+        <ul class="container-cards">
+          <li class=" jogo" data-anima="right">
+            <h3 class="game-name">Grand Theft Auto IV <span class="condicao">(Usado)</span></h3>
+            <div class="jogo-img">
+              <img src="./assets/img/gta-4-otm.jpg" alt="Grand Theft Auto 4 Capa" class="details-img">
+            </div>
+            <div class="botoes">
+              <button class="details" data-game="game1"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
+
+          <li class="jogo" data-anima="right">
+            <h3 class="game-name">Grand Theft Auto IV <span class="condicao">(Usado)</span></h3>
+            <div class="jogo-img">
+              <img src="./assets/img/gta-4-otm.jpg" alt="Grand Theft Auto 4 Capa" class="details-img">
+            </div>
+            <div class="botoes">
+              <button class="details" data-game="game1"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
+
+          <li class="jogo" data-anima="down">
+            <h3 class="game-name">Grand Theft Auto IV <span class="condicao">(Usado)</span></h3>
+            <div class="jogo-img">
+              <img src="./assets/img/gta-4-otm.jpg" alt="Grand Theft Auto 4 Capa" class="details-img">
+            </div>
+
+            <div class="botoes">
+              <button class="details" data-game="game1"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
+          <li class="jogo" data-anima="right">
+            <h3 class="game-name">Grand Theft Auto IV <span class="condicao">(Usado)</span></h3>
+            <div class="jogo-img">
+              <img src="./assets/img/gta-4-otm.jpg" alt="Grand Theft Auto 4 Capa" class="details-img">
+            </div>
+
+            <div class="botoes">
+              <button class="details" data-game="game1"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+
+            </div>
+          </li>
+
+          <li class="jogo" data-anima="down">
+            <h3 class="game-name">Grand Theft Auto V <span class="condicao">(Usado)</span></h3>
+            <div class="jogo-img">
+              <img src="./assets/img/gta-5-otm.jpg" alt="Grand Theft Auto 5 Capa" class="details-img">
+            </div>
+
+            <div class="botoes">
+              <button class="details" data-game="game2"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
+
+          <li class="jogo" data-anima="down">
+            <h3 class="game-name">Grand Theft Auto V <span class="condicao">(Usado)</span></h3>
+            <div class="jogo-img">
+              <img src="./assets/img/gta-5-otm.jpg" alt="Grand Theft Auto 5 Capa" class="details-img">
+            </div>
+
+            <div class="botoes">
+              <button class="details" data-game="game2"> <img src="./assets/icons/lupa-2.svg" alt="Loupe Icon"> Detalhes</button>
+            </div>
+          </li>
+        </ul>
+        <div class="btns-scroll-ps3">
+          <span id="btn-voltar-ps3"><img src="./assets/icons/arrow_back.svg" alt=""></span>
+          <span id="btn-avancar-ps3"><img src="./assets/icons/arrow_forward.svg" alt=""></span>
+        </div>
+      </section>
+ -->
+
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>@Todos os direitos reservados</p>
+    </div>
+  </footer>
 
   <div id="modal" class="modal">
     <span class="fechar">&times;</span>
-    <img class="modal-img" id="modal-img" />
+    <img class="modal-img" id="modal-img" style="display: block;" />
+    <!-- Novo Elemento de Vídeo -->
+    <video class="modal-video" id="modal-video" controls style="display: none; max-width: 90%; max-height: 90%;"></video>
 
     <button class="prev">&#10094</button>
     <button class="next">&#10095</button>

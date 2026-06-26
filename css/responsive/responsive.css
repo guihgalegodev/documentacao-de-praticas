@@ -1,35 +1,153 @@
-@media (max-width: 780px) {
-  .header h1 {
+@media (max-width: 1200px) {
+  .btns-scroll-praticas {
+    position: initial;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .jogos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 980px) {
+  .overlay {
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .jogo-img.ativo .overlay {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 790px) {
+  .btns-scroll-praticas {
+    display: none;
+  }
+  .logo span {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
   }
 
-  .header span {
-    font-size: 0.55rem;
+  .jogos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 0px;
   }
 
-  .praticas {
-    align-items: center;
-    justify-content: center;
+  .intro img {
+    max-width: 80%;
+    height: 200px;
+  }
+
+  .intro h1 {
+    font-size: 1.2rem;
+  }
+
+  #btn-mobile {
+    display: flex;
+  }
+
+  #menu {
+    display: block;
+    background: var(--preto);
+    position: absolute;
+    z-index: 9;
+    left: 0px;
+    top: 110px;
+    width: 100%;
+    padding-top: 10px;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: 0.4s;
+  }
+
+  #nav-menu.active #menu {
+    height: 250px;
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  #menu a {
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  .details {
+    border: none;
+  }
+
+  .cp {
+    border: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .header {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .intro img {
+    height: 150px;
+  }
+
+  .intro h1 {
+    margin: 20px 10px;
+    font-size: 0.85rem;
+  }
+
+  .infos p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  #menu {
+    top: 110px;
+  }
+
+  #menu li a {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 530px) {
+  .logo {
+    flex-direction: column;
+  }
+  .logo span {
+    font-size: 1rem;
+    border: none;
+  }
+
+  .jogos {
+    grid-template-columns: 1fr;
+    gap: 30px 0px;
   }
 }
 
 @media (max-width: 400px) {
-  .header h1 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+  #foto-logo {
+    width: 70px;
+    height: 70px;
   }
 
-  .header span {
-    font-size: 0.45rem;
+  #menu {
+    top: 58px;
   }
 
-  .praticas {
-    align-items: center;
-    justify-content: center;
+  .logo span {
+    font-size: 0.75rem;
   }
 
-  .pratica {
+  .header-bg {
+    padding: 15px 10px;
+  }
+
+  .jogo {
     width: 70%;
   }
 }

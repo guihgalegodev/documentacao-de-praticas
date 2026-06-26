@@ -1,16 +1,60 @@
-import { praticas } from "./modules/praticas.js";
-import { abrirModal, initModalEvents } from "./modules/modal.js";
+import { abrirModal, initModalEvents, events } from "./modules/modal.js";
+import { initMenuMobile } from "./modules/menu.js";
+import { initScrollAnimado } from "./modules/scroll-animado.js";
+import { initScrollHorizontal } from "./modules/scroll-horizontal.js";
 
 const btnDetalhes = document.querySelectorAll(".details");
-const isMobile = window.innerWidth <= 980;
+// const isMobile = window.innerWidth <= 980;
+
+// if (isMobile) {
+//   const cards = document.querySelectorAll(".jogo-img");
+
+//   cards.forEach((card) => {
+//     setInterval(() => {
+//       card.classList.toggle("ativo");
+//     }, 3000);
+//   });
+// }
 
 btnDetalhes.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const gameKey = btn.dataset.pratica;
-    const listaImagens = praticas[gameKey];
+  for (let i = 0; i < events.length; i++) {
+    btn.addEventListener(events[i], async (e) => {
+      if (e.type === "touchstart") e.preventDefault();
+      const praticaKey = btn.dataset.pratica;
 
-    abrirModal(listaImagens);
-  });
+      try {
+        // Desabilita temporariamente o botão e adiciona feedback visual
+        btn.style.opacity = "0.5";
+        btn.style.pointerEvents = "none";
+
+        const response = await fetch("./bancoImgs.json");
+        if (!response.ok) {
+          throw new Error("Não foi possível carregar os dados dos jogos.");
+        }
+
+        const imgs = await response.json();
+        const listaImagens = imgs[praticaKey];
+
+        if (listaImagens) {
+          abrirModal(listaImagens);
+        } else {
+          throw new Error(
+            `Jogo com a chave "${praticaKey}" não foi encontrado no arquivo de dados.`,
+          );
+        }
+      } catch (error) {
+        console.error("Erro:", error);
+        alert("Ocorreu um erro ao carregar as imagens do jogo.");
+      } finally {
+        // Restaura o estado original do botão
+        btn.style.opacity = "1";
+        btn.style.pointerEvents = "auto";
+      }
+    });
+  }
 });
 
+initMenuMobile();
+initScrollAnimado();
+initScrollHorizontal();
 initModalEvents();

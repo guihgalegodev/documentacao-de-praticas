@@ -30,5 +30,10 @@
     "assets/img/scroll-animado/scroll-animado-js.png",
     "assets/img/scroll-animado/scroll-animado-css.png",
     "assets/img/scroll-animado/scroll-animado-html.png"
+  ],
+  "pratica8": [
+    "assets/img/cadasto-carro/cadastro-de-carros-js.png",
+    "assets/img/cadasto-carro/cadastro-de-carros-html.png",
+    "assets/img/cadasto-carro/cadastro-de-carros-document.png"
   ]
 }

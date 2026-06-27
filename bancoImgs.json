@@ -27,9 +27,11 @@
   ],
   "pratica6": ["assets/img/logica-com-games/game-prototype.png"],
   "pratica7": [
-    "assets/img/scroll-animado/scroll-animado-js.png",
-    "assets/img/scroll-animado/scroll-animado-css.png",
-    "assets/img/scroll-animado/scroll-animado-html.png"
+    "assets/img/scroll-animado-scroll-suave-menu-fixo/anima-scroll-scroll-suave-html.png",
+    "assets/img/scroll-animado-scroll-suave-menu-fixo/anima-scroll-js.png",
+    "assets/img/scroll-animado-scroll-suave-menu-fixo/anima-scroll-css.png",
+    "assets/img/scroll-animado-scroll-suave-menu-fixo/scroll-suave-js.png",
+    "assets/img/scroll-animado-scroll-suave-menu-fixo/estilos-css.png"
   ],
   "pratica8": [
     "assets/img/cadasto-carro/cadastro-de-carros-js.png",

@@ -37,5 +37,11 @@
     "assets/img/cadasto-carro/cadastro-de-carros-js.png",
     "assets/img/cadasto-carro/cadastro-de-carros-html.png",
     "assets/img/cadasto-carro/cadastro-de-carros-document.png"
+  ],
+  "pratica9": [
+    "assets/img/menu-hamburguer/menu-hamburguer-html.png",
+    "assets/img/menu-hamburguer/menu-hamburguer-css.png",
+    "assets/img/menu-hamburguer/menu-hamburguer-js.png",
+    "assets/videos/menu-mobile.mp4"
   ]
 }

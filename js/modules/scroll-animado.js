@@ -3,7 +3,6 @@ export function initScrollAnimado() {
   const metadeWindow = window.innerHeight * 0.5;
   function animaScroll() {
     jogosAnimar.forEach((jogo) => {
-      console.log(jogo);
       const jogoTop = jogo.getBoundingClientRect().top;
       const isVisible = jogoTop - metadeWindow < 0;
       if (isVisible) {

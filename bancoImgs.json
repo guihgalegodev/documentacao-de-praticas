@@ -43,5 +43,21 @@
     "assets/img/menu-hamburguer/menu-hamburguer-css.png",
     "assets/img/menu-hamburguer/menu-hamburguer-js.png",
     "assets/videos/menu-mobile.mp4"
+  ],
+  "pratica10": [
+    "assets/img/modal-login/modal-login-html.png",
+    "assets/img/modal-login/modal-login-css.png",
+    "assets/img/modal-login/modal-login-js.png"
+  ],
+  "pratica11": [
+    "assets/img/tooltip-box/tooltip-box-html.png",
+    "assets/img/tooltip-box/tooltip-box-css.png",
+    "assets/img/tooltip-box/tooltip-box-js.png"
+  ],
+  "pratica12": [
+    "assets/img/button-creator-localStorage/btn-creator-html.png",
+    "assets/img/button-creator-localStorage/btn-creator-css.png",
+    "assets/img/button-creator-localStorage/btn-creator-js.png",
+    "assets/img/button-creator-localStorage/btn-creator-window.png"
   ]
 }

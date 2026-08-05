@@ -59,5 +59,15 @@
     "assets/img/button-creator-localStorage/btn-creator-css.png",
     "assets/img/button-creator-localStorage/btn-creator-js.png",
     "assets/img/button-creator-localStorage/btn-creator-window.png"
+  ],
+  "pratica13": [
+    "assets/img/classes-js/ex-alunos/classes-js.png",
+    "assets/img/classes-js/ex-alunos/classes-json.png",
+    "assets/img/classes-js/ex-alunos/classes-html.png",
+    "assets/img/classes-js/ex-alunos/classes-document.png",
+    "assets/img/classes-js/get-set/get-set-js-1.png",
+    "assets/img/classes-js/get-set/get-set-js-2.png",
+    "assets/img/classes-js/get-set/get-set-document.png",
+    "assets/img/classes-js/subclasses-extends-js.png"
   ]
 }

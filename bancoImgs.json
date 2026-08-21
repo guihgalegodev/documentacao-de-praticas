@@ -69,5 +69,17 @@
     "assets/img/classes-js/get-set/get-set-js-2.png",
     "assets/img/classes-js/get-set/get-set-document.png",
     "assets/img/classes-js/subclasses-extends-js.png"
+  ],
+  "pratica14": [
+    "./assets/img/z-accordion-refatorado-classe/accordion-html.png",
+    "./assets/img/z-accordion-refatorado-classe/accordion-css.png",
+    "./assets/img/z-accordion-refatorado-classe/accordion-import.png",
+    "./assets/img/z-accordion-refatorado-classe/accordion-class-js.png"
+  ],
+  "pratica15": [
+    "./assets/img/z-tabnav-refatorado-classe/tabnav-html.png",
+    "./assets/img/z-tabnav-refatorado-classe/tabnav-css.png",
+    "./assets/img/z-tabnav-refatorado-classe/tabnav-import.png",
+    "./assets/img/z-tabnav-refatorado-classe/tabnav-class-js.png"
   ]
 }

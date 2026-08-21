@@ -1,5 +1,6 @@
 @media (max-width: 1200px) {
-  .btns-scroll-praticas {
+  .btns-scroll-praticas,
+  .btns-scroll-cp {
     position: initial;
     max-width: 200px;
     margin: 30px auto;

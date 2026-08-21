@@ -2,6 +2,9 @@ export function initScrollHorizontal() {
   const scrollPraticas = document.querySelector(
     ".section-praticas .container-cards",
   );
+  const scrollCodigosProntos = document.querySelector(
+    ".section-codigos-prontos .container-cards",
+  );
 
   const setaVoltarPraticas = document.querySelector("#btn-voltar-praticas");
 
@@ -19,21 +22,21 @@ export function initScrollHorizontal() {
   }
   setaAvancarPraticas.addEventListener("click", avancarScrollPraticas);
 
-  // const scrollPs3 = document.querySelector(".section-ps3 .container-cards");
+  ///////////////////////////////////////////////////////////////////////////////
 
-  // const setaVoltarPs3 = document.querySelector("#btn-voltar-ps3");
+  const setaVoltarCp = document.querySelector("#btn-voltar-cp");
 
-  // setaVoltarPs3.style.cursor = "Pointer";
-  // function voltarScrollPs3() {
-  //   scrollPs3.scrollLeft -= 120;
-  // }
-  // setaVoltarPs3.addEventListener("click", voltarScrollPs3);
+  setaVoltarCp.style.cursor = "Pointer";
+  function voltarScrollCp() {
+    scrollCodigosProntos.scrollLeft -= 120;
+  }
+  setaVoltarCp.addEventListener("click", voltarScrollCp);
 
-  // const setaAvancarPs3 = document.querySelector("#btn-avancar-ps3");
+  const setaAvancarCp = document.querySelector("#btn-avancar-cp");
 
-  // setaAvancarPs3.style.cursor = "Pointer";
-  // function avancarScrollPs3() {
-  //   scrollPs3.scrollLeft += 120;
-  // }
-  // setaAvancarPs3.addEventListener("click", avancarScrollPs3);
+  setaAvancarCp.style.cursor = "Pointer";
+  function avancarScrollCp() {
+    scrollCodigosProntos.scrollLeft += 120;
+  }
+  setaAvancarCp.addEventListener("click", avancarScrollCp);
 }
